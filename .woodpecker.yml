@@ -5,7 +5,7 @@ when:
 
 steps:
   - name: checks
-    image: alpine:3.22
+    image: node:22-alpine
     commands:
       - "test -s index.html"
       - "test -s manifest.webmanifest"
